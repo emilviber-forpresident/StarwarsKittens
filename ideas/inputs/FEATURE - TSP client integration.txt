@@ -1,0 +1,7 @@
+TSP Client Integration
+https://dev.azure.com/tunstallgroup/IHCP/_workitems/edit/431577
+Sourcecode/repositories:
+main repository
+https://dev.azure.com/tunstallgroup/IHCP/_git/ihcp
+additional repository
+https://dev.azure.com/tunstallgroup/IHCP/_git/tes

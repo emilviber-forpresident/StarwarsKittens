@@ -1,0 +1,9 @@
+Feature - GPS Enable Emergency Tracking from TESAppGPS Enable Emergency Tracking from TESApp
+https://dev.azure.com/tunstallgroup/IHCP/_workitems/edit/399759
+
+Sub/story - TES iOS: Emergency tracking
+https://dev.azure.com/tunstallgroup/IHCP/_workitems/edit/407886
+
+Sourcecode/repositories:
+https://dev.azure.com/tunstallgroup/Embedded%20and%20Mobile%20SE/_git/Mobile.TesApp
+https://dev.azure.com/tunstallgroup/Embedded%20and%20Mobile%20SE/_git/Mobile.TesIosApp.git

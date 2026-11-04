@@ -36,6 +36,10 @@ Mainly 1 (needs and defining work). Also 3 (testability questions), 4 (#5/#6 use
 - Do we have **historical tickets that went wrong**, where we know the hidden problem afterwards? That would be our before/after and difficult-case evidence.
 - Who decides "ready" today, and how long does refinement take per ticket? That's our baseline.
 - Output for whom: the PO (before handing over) or the devs (before discussing)?
+  - **Answered (team, 4 Nov):** the feature team: developers and an architect, sometimes a PO or UX stakeholder. This holds for all our examples.
+
+## Team preference (4 Nov)
+Team likes **4 (Question Storm), 5 (Code-Aware Complexity Map) and 8 (Refinement Agenda Generator)**, so the converge round will focus on these. The team is collecting real ADO features and repo context first.
 
 ## Next round
 Collect 2–3 real tickets (one known to have blown up). Then run a converge round on ideas 1, 3, 4, 5, 8 and 10, scored against the brief.

@@ -21,4 +21,4 @@ We are a team at the TTN & TTG AI Hackathon. The goal is to pick one real proble
 - Write prompts/context that improved results to `docs/prompt-log.md` (Prompt mechanic evidence).
 
 ## Current status
-Day 1: setting the scene and ideating. No problem chosen yet.
+Day 2: problem chosen, **Padawan Pre-Flight**, an AI pre-refinement analysis of features (see `decisions/001-padawan-pre-flight.md`). Next: product-owner measures, then the architect design. Work method: run → measure → analyse → adjust, per feature.

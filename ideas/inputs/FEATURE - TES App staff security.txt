@@ -1,0 +1,7 @@
+TES App staff security step 2
+https://dev.azure.com/tunstallgroup/IHCP/_workitems/edit/404917/
+Sourcecode/repositories:
+https://dev.azure.com/tunstallgroup/IHCP/_git/AlarmServer.Swamp
+https://dev.azure.com/tunstallgroup/IHCP/_git/AlarmServer.Database
+https://dev.azure.com/tunstallgroup/IHCP/_git/AlarmServer.Koala
+https://dev.azure.com/tunstallgroup/IHCP/_git/AlarmServer.Web
