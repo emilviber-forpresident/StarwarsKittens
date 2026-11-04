@@ -64,3 +64,4 @@ The same feature is rerun until the improvement levels off, then we move to the 
 - `product-owner`: sharpen the measures and the success threshold, and define a fair "before" baseline.
 - `architect`: design the skill layout, prompt versioning, the `runs/` structure, and how to fetch an ADO revision as of a date (with the UTF-8 fix).
 - Team: get the PAT for the app repos, and agree when the TSP refinement happens.
+- **Portability (added 4 Nov, team request):** Pre-Flight must also run in **ChatGPT** and **Codex**. The architect should therefore keep the step prompts tool-neutral, as plain Markdown in `preflight/prompts/`, with thin adapters per tool: a Claude Code skill, Codex `AGENTS.md` plus a custom prompt, and a ChatGPT Project or Custom GPT. Claude Code comes first; the ports follow once the prompts are stable.
