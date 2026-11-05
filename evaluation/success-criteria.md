@@ -33,7 +33,7 @@ Stop iterating when **any** of these is true:
 
 ## 4. Fairness rules
 - **Frozen GT and measures.** Nothing in the frozen tables changes after run 1. New finds go to the post-freeze tables only.
-- **Same input revision.** Every scored run on a feature uses the same byte-identical snapshot in `runs/<feature>/input/` (404917 as of 1 Mar 2026, 431577 as of 18 Oct 2026, UTF-8, comments hidden).
+- **Same input revision.** Every scored run on a feature uses the same byte-identical snapshot in `runs/<feature>/input/` (404917 as of **4 Mar 2026**, 431577 as of 18 Oct 2026, UTF-8, comments hidden).
 - **One variable per iteration:** prompt, context mode, step order, or model, but never two at once. A pure repeat (no change) is allowed to measure variance.
 - **Log every change** in `docs/prompt-log.md`: run ID, what changed, why, and the expected effect.
 - **Fresh session per run.** No memory or chat carry-over, and the tool never sees `evaluation/`, the digests or `decisions/001`. Run it from a clean folder.
@@ -50,6 +50,7 @@ Stop iterating when **any** of these is true:
 
 ## Assumptions to confirm with the team
 1. **Pre-dev cutoffs:** 404917 uses the ADO revision and repo commit as of **1 Mar 2026**, and 431577 uses **18 Oct 2026**. These assume the first dev comment or human question came after those dates.
+   **Resolved 4 Nov, before run 1:** on 1 Mar, 404917 had **no child stories**; all six were created on 4 Mar, and the first was activated on 5 Mar. The cutoff moves to **4 Mar 2026 (end of day)**: after the breakdown, before development. 431577's 18 Oct is confirmed (the feature was last changed 2 Oct, and the first human question came on 19 Oct). Snapshots are in `runs/<feature>/input/feature.md`, built with the ADO REST `asOf` parameter.
 2. **Baseline and thresholds:** (b) the human refinement is the headline "before", with targets of at least 60% ticket-only recall and at most 25% noise.
 3. Story attribution of the 404917 comments (414478, 414480, 414481) is inferred from topic. Verify it against the raw comments; the wording and count stay frozen.
 4. Hindsight-hypothesis items (GPS battery and privacy, Google Maps licensing) and the facilitator's TSP watch list are **not** GT. They can only score as Useful new.

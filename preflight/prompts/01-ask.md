@@ -1,4 +1,4 @@
-# Step 1: Ask (prompt v0.1)
+# Step 1: Ask (prompt v0.3)
 
 Read `input/feature.md` in full. Then go through it once for **each lens** below, as that person preparing for refinement. Write down what they would need answered before they could start or estimate the work.
 

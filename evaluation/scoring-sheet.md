@@ -9,7 +9,7 @@ Copy this file to `runs/<feature>/run-NN-score.md` and fill it in right after th
 | Date / time | |
 | Tool + model (+ reasoning setting) | e.g. Claude Code / claude-opus-5-5; Codex / <model> <effort> |
 | Prompt version | e.g. `preflight/prompts` v0.3 (must match `docs/prompt-log.md`) |
-| Feature + input snapshot | e.g. 404917, `runs/404917/input/` as of 1 Mar 2026 |
+| Feature + input snapshot | e.g. 404917, `runs/404917/input/` as of 4 Mar 2026 |
 | Context given | Ticket only / Ticket + code (repos and commit: ______) |
 | Variable changed vs previous run | ONE thing, or "none (repeat)" |
 | Tokens in | |

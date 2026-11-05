@@ -1,4 +1,4 @@
-# Step 3: Refinement agenda (prompt v0.1)
+# Step 3: Refinement agenda (prompt v0.3)
 
 Turn the notes from steps 1 and 2 into a 15-minute refinement agenda for a developer-heavy team, with a PO facilitating.
 
@@ -8,7 +8,7 @@ Turn the notes from steps 1 and 2 into a 15-minute refinement agenda for a devel
    - duplicates, by merging items that are really the same question
    - low-confidence items with no evidence
 
-   Keep **at most 25 items**, and prefer fewer.
+   Keep **at most 25 items**, and prefer fewer. Valid items you cut go to **Parked**, one line each. Never drop them silently.
 2. **Classify** each remaining item into exactly one bucket:
    - **DECIDE**: a technical or scope choice the team must make before development. Give the options, ideally as A or B.
    - **SPIKE**: needs investigation before it can be decided or estimated. Give the question the spike answers and a rough timebox.
@@ -24,3 +24,7 @@ Turn the notes from steps 1 and 2 into a 15-minute refinement agenda for a devel
    - 4: ready, with decisions recorded
 
    Give a one-line reason.
+6. If the code check was done, add the **Code map**: the components and files most likely to change, each linked to its agenda IDs.
+7. **Build the role view.** For each role (PO, Architect, Developer, Tester, UX), list what that role must do, ordered by priority, with an urgency (`Now` / `Before sprint` / `In sprint`) and what it depends on (other IDs or an outside party). An item can appear under more than one role when each role has a different action on it.
+8. **Write the summary last**, for a reader who stops there: readiness, maturity counts from the stories (acceptance criteria, estimates) and from your agenda, 2–3 plain sentences, at most 3 blockers, the next step, and who is needed to move it forward.
+9. Write everything into the single output file defined in `output-format.md`.

@@ -1,4 +1,4 @@
-# Step 2: Check against the code (prompt v0.1, optional)
+# Step 2: Check against the code (prompt v0.3, optional)
 
 Only run this step if `repos/` contains code. Keep the token cost down: **search first, then read only the matches**. Never read whole repositories.
 

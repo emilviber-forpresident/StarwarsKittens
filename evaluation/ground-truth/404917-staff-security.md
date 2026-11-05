@@ -46,7 +46,7 @@ From the digest's hindsight hypothesis. There's no evidence these caused problem
 | Every revision after dev start. Use the ADO revision **as of 1 Mar 2026** (before the first comment) | Stories were edited during dev |
 | Story **422194** entirely (title, text, link) | Added late as a result of GT-SS-04 |
 | State, closed dates, and the "Closed" and "Resolved" history | Signals the outcome |
-| Repo code after dev start: check out the last commit **before 1 Mar 2026** for the code step | `master` contains the fixes |
+| Repo code after dev start: check out the last commit **on or before 4 Mar 2026** for the code step | `master` contains the fixes |
 | This file, `evaluation/`, `ideas/inputs/*digest.md`, `decisions/001` | They contain the ground truth |
 
 Practical rule: run the tool from a clean folder that holds only the prompts and the frozen input snapshot (`runs/404917/input/`), not from the repo root.
